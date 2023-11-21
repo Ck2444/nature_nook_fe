@@ -1,0 +1,17 @@
+.discount {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+input[type="checkbox"].input {
+    height: 40px;
+    width: 40px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+
+}

@@ -1,0 +1,315 @@
+/* ----New season block----- */
+.block_section {
+    width: 1440px;
+    height: 600px;
+    background-color: #A1E2EB;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.block_content {
+    margin-left: 50px;
+    margin-top: 110px;
+
+}
+
+.block_content h2 {
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+.block_content p {
+    color: #FFF;
+    font-size: 63px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.sale_button {
+    color: #2D2D2D;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 25px 50px;
+    border-radius: 13px;
+    background: #FFF;
+    margin-top: 60px;
+}
+
+.bush_img {
+    height: 679px;
+    position: relative;
+    bottom: 108px;
+}
+
+/*-----catalog-----*/
+
+.catalog {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.catalog p {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 96px;
+
+}
+
+.catalog a {
+    width: 164px;
+    height: 41.97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8B8B8B;
+    font-size: 12px;
+    font-weight: 700;
+    border: 2px solid #8B8B8B;
+}
+
+.sliced_array {
+    display: grid;
+    width: 1384px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 32px;
+    margin-right: 33px;
+    grid-column-gap: 32px;
+    grid-row-gap: 58px;
+    margin-bottom: 50px;
+}
+
+
+
+/* -----draw_section------------ */
+
+.dwarf_section {
+    width: 1440px;
+    height: 476px;
+    background: linear-gradient(263deg, #393 -0.43%, #006300 104.36%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.draw_img {
+    width: 422px;
+    height: 422px;
+    margin-top: 27px;
+    margin-left: 91px;
+    margin-right: 200px;
+}
+
+.draw_block_content {
+    margin: 15px 258px 45px 0px;
+
+}
+
+.large_text {
+    color: #FFF;
+    font-size: 90px;
+    line-height: 120%;
+    letter-spacing: 2.7px;
+
+}
+
+.small_text {
+    color: #FFF;
+    font-size: 50px;
+    line-height: 120%;
+    letter-spacing: 1.5px;
+}
+
+
+/* ------Sale------ */
+
+.sale_style {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 0px;
+    margin-top: 49px;
+    margin-bottom: 21px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .main_nav_menu {
+        width: 1000px;
+    }
+
+    .block_section {
+        background-color: #A1E2EB;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .block_content {
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .block_content h2,
+    .block_content p,
+    .sale_button {
+        text-align: center;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bush_img {
+        display: none;
+    }
+
+    /*---catalog----*/
+    .catalog {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .catalog p {
+
+        font-size: 30px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .catalog a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .sliced_array {
+        display: grid;
+        width: 800px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-items: center;
+        margin-left: 322px;
+    }
+
+
+
+    /*-----drawsection----*/
+
+    .dwarf_section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .draw_img {
+        width: 300px;
+        height: 300px;
+        margin: 20px 0;
+    }
+
+    .draw_block_content {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .large_text {
+        font-size: 70px;
+    }
+
+    .small_text {
+        font-size: 40px;
+    }
+
+    .draw_img {
+        display: none;
+    }
+
+    /*---Sale---*/
+    .sale_style {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .block_section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .block_content {
+        margin-left: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .block_content h2,
+    .block_content p,
+    .sale_button {
+        text-align: center;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bush_img {
+        display: none;
+    }
+
+
+    /*---catalog---*/
+    .catalog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .catalog p {
+        margin-right: 40px;
+        margin-bottom: 8px;
+    }
+
+    .catalog a {
+        margin-right: 40px;
+        padding: 4px 8px;
+    }
+
+    .sliced_array {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 12px;
+        margin-right: 12px;
+        grid-column-gap: 12px;
+        grid-row-gap: 20px;
+    }
+
+}

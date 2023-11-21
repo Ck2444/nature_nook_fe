@@ -1,0 +1,172 @@
+.google {
+    background-color: rgb(187, 187, 187);
+    padding: 4px 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.h5 {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: #06d945;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.wrapper {
+    color: #ffffff;
+    margin: 90px 40px;
+    width: 1440px;
+}
+
+.text_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #020202;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px auto;
+}
+
+.number {
+    color: #dff01a;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.strasse {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.hours {
+    color: #000;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.time {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon a {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.icon p {
+    color: black;
+    margin-top: 8px;
+}
+
+
+
+.content_cont a {
+    width: 70px;
+    height: 58px;
+    margin-bottom: 8px;
+}
+
+.social_media_content {
+    display: flex;
+    margin-top: 33px;
+}
+
+.content_cont p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.map {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.number a {
+    text-decoration: none;
+    color: black;
+    font-weight: medium;
+
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        width: auto;
+        margin: 60px 20px;
+    }
+
+    .text_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social_media_content {
+        justify-content: center;
+    }
+
+    .number,
+    .strasse,
+    .hours,
+    .time {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 769px) {
+    .wrapper {
+        margin: 30px 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin: 20px auto;
+    }
+
+    .number {
+        font-size: 40px;
+    }
+
+    .strasse {
+        font-size: 28px;
+    }
+
+    .hours {
+        font-size: 14px;
+    }
+
+    .time {
+        font-size: 18px;
+    }
+
+    .icon a {
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,125 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 28px;
+
+}
+
+.productCard {
+    display: flex;
+    position: relative;
+}
+
+.delete_cart {
+    position: absolute;
+    right: 0px;
+}
+
+.productCard img {
+    width: 183px;
+    height: 166px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin-right: 29px;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title_container p {
+    margin-top: 5px;
+    margin-bottom: 71px;
+}
+
+.main_title {
+    width: 318px;
+    color: #3A3A3A;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.54px
+}
+
+.adjusterContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.button_decrease {
+    width: 18px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #000;
+    margin: 20px 0px 18px 15px;
+    cursor: pointer;
+}
+
+.button_increase {
+    width: 27px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 5px 7px 0px 0px;
+    cursor: pointer;
+}
+
+.adjusterContainer p {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.54px;
+    margin-left: 5px;
+}
+
+
+.dotted_line {
+    width: 824px;
+    height: 1px;
+    margin-top: 40px;
+    border-bottom: 2px solid rgba(66, 69, 81, 0.5);
+    background: #A7A7A7;
+
+}
+
+.price_container {
+    display: flex;
+}
+
+.priceText {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+
+}
+
+.currencySymbol {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+    margin-right: 70px;
+
+}
+
+.showPrice {
+    color: #8B8B8B;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.6px;
+    text-decoration: line-through;
+    margin-top: 11px;
+
+}

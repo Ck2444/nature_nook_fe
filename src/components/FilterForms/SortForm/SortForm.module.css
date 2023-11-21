@@ -1,0 +1,19 @@
+.sorted {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.sorted select {
+    width: 219px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+
+}

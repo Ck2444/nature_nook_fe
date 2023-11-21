@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    width: 1384px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 32px;
+    margin-right: 33px;
+    grid-column-gap: 32px;
+    grid-row-gap: 58px;
+    margin-bottom: 50px;
+}
+
+.main_container h1 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+    margin: 0px 0px 81px 31px;
+}

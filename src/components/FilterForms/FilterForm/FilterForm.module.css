@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.price {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    gap: 10px;
+}
+
+.price input {
+    width: 103px;
+    height: 42px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.price button {
+    display: none;
+}
+
+
+@media (max-width: 1200px) {
+    .price {
+        margin-left: 103px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}

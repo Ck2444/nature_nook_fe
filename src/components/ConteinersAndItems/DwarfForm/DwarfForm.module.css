@@ -1,0 +1,56 @@
+.dwarf_form input {
+    width: 473px;
+    height: 75.441px;
+    border-radius: 25.147px;
+    color: #6C6C6C;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.54px;
+    padding: 27.34px 27.34px 26.1px 50.29px;
+    margin-top: 46px;
+}
+
+.dwarf_form button {
+    color: #FFF;
+    font-size: 28.739px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.862px;
+    padding: 21.04px 116px 19.67px 120px;
+    border-radius: 25.147px;
+    border: 2.395px solid #FFF;
+    margin-top: 14.52px;
+    background: linear-gradient(263deg, #393 -0.43%, #006300 104.36%);
+
+}
+
+.error_msg {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(215, 48, 48);
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dwarf_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Горизонтальное центрирование элементов */
+        justify-content: center;
+    }
+
+    .dwarf_form input,
+    .dwarf_form button {
+        width: 80%;
+        /* Установите ширину, которая вам подходит. Здесь я выбрал 80% от родительской ширины. */
+        margin: 15px 0;
+        /* Добавляем отступы сверху и снизу для разделения элементов */
+    }
+
+    .error_msg {
+        text-align: center;
+        /* Центрируем сообщение об ошибке */
+    }
+}

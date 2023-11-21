@@ -1,0 +1,274 @@
+.main_nav_menu {
+    width: 1440px;
+    margin-top: 28px;
+    margin-bottom: 76px;
+    margin-right: 28px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.img_catalog {
+    display: flex;
+    flex-direction: row;
+    margin-left: 28px;
+
+}
+
+.imgg {
+    width: 72px;
+    height: 72px;
+}
+
+.catalog {
+    display: inline-flex;
+    padding: 14px 30px 15px 30px;
+    margin: 11px 297px 12px 59px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    border: 2px solid #393;
+
+    color: white;
+}
+
+.second_menu {
+    width: 546px;
+    margin-right: 137px;
+    padding-left: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    color: #000;
+    text-decoration: none;
+    padding: 14px 30px 15px 30px;
+    border-radius: 5px;
+}
+
+.active {
+    color: white;
+    padding: 14px 30px 15px 30px;
+    border-radius: 5px;
+    background-color: #393;
+}
+
+
+
+.shopping_link {
+    color: #000;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count_num {
+    background-color: rgb(230, 230, 24);
+    color: black;
+    padding: 0px 17px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 16px;
+    top: 19px;
+    right: -46px;
+}
+
+
+
+
+/* @media (max-width: 1200px) {
+    .main_nav_menu {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .img_catalog {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .catalog {
+        margin: 20px 0 0 0;
+    }
+
+    .second_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 0;
+        padding-left: 0;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .main_nav_menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .img_catalog,
+    .second_menu {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .shopping_link {
+        margin-top: 10px;
+    }
+} */
+
+@media (max-width: 1200px) {
+    .main_nav_menu {
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-right: 150px;
+    }
+
+    .count_num {
+        position: absolute;
+        top: 20px;
+        right: -32px;
+    }
+
+    .catalog {
+        margin: 11px 170px 12px 59px;
+    }
+
+    .second_menu {
+        width: 546px;
+        margin-right: 50px;
+        padding-left: 0px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 1000px) {
+    .main_nav_menu {
+        width: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+    }
+
+    .catalog {
+        margin: 11px 130px 12px 59px;
+    }
+
+    .second_menu {
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
+
+    }
+
+    .count_num {
+        position: absolute;
+        top: 20px;
+        right: -150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main_nav_menu {
+        width: 480px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+    }
+
+    .catalog {
+        margin: 11px 0px 12px 59px;
+    }
+
+    .count_num {
+        position: absolute;
+        top: 20px;
+        right: -455px;
+    }
+}
+
+@media (max-width: 768px) {
+    .full_width {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .main_nav_menu {
+        position: absolute;
+        top: -45px;
+        right: -300px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(72, 221, 141);
+    }
+
+    .burger_icon {
+        display: block;
+
+    }
+
+    .imgg {
+        margin-left: 30px;
+    }
+
+    .catalog {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+    }
+
+    .count_num {
+        display: none;
+    }
+
+    .burger_menu {
+        position: relative;
+        top: 22px;
+        right: 27px;
+        border: 1px solid black;
+        font-size: 20px;
+        padding: 3px 10px;
+        cursor: pointer;
+        font-size: 30px;
+    }
+
+
+}
