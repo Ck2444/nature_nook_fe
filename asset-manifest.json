@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nature_nook_fe/static/css/main.15f95d87.css",
+    "main.js": "/nature_nook_fe/static/js/main.7105ae43.js",
+    "static/media/image_2.png": "/nature_nook_fe/static/media/image_2.219152481630c1bc0f3f.png",
+    "static/media/image_6.png": "/nature_nook_fe/static/media/image_6.c0bfd006383af424153c.png",
+    "static/media/image_3.png": "/nature_nook_fe/static/media/image_3.c036eea09188ab215dcb.png",
+    "index.html": "/nature_nook_fe/index.html",
+    "main.15f95d87.css.map": "/nature_nook_fe/static/css/main.15f95d87.css.map",
+    "main.7105ae43.js.map": "/nature_nook_fe/static/js/main.7105ae43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f95d87.css",
+    "static/js/main.7105ae43.js"
+  ]
+}
